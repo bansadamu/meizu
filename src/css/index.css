@@ -1,0 +1,137 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+em,
+i,
+b {
+  font-weight: normal;
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+.p0 {
+  padding: 0;
+}
+.header {
+  position: absolute;
+  top: 0;
+  z-index: 999;
+  margin-left: 15%;
+}
+.header ._logo > img {
+  width: 124px;
+  margin-top: 30px;
+  float: left;
+  margin-right: 20px;
+}
+.header ._logo ._logo-l {
+  overflow: hidden;
+  height: 82px;
+  float: left;
+}
+.header ._logo ._logo-l > li {
+  float: left;
+}
+.header ._logo ._logo-l > li > a {
+  display: block;
+  font-size: 14px;
+  padding: 31px 16px 30px;
+  line-height: 21px;
+  transition: color 0.1s linear;
+}
+.header ._logo .shit {
+  float: left;
+  position: relative;
+  margin-left: 15px;
+}
+.header ._logo .shit > a > img {
+  width: 35px;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+.header ._logo .shit > div:nth-of-type(1) {
+  float: left;
+}
+.header ._logo .shit > div:nth-of-type(1) input {
+  width: 150px;
+  height: 35px;
+  outline: none;
+  border-radius: 15px;
+  margin-top: 25px;
+  text-indent: 1em;
+}
+.header ._logo .shit > div:nth-of-type(1) img {
+  width: 25px;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 110px;
+}
+.header ._logo .shit > div:nth-of-type(2) {
+  float: left;
+  margin-top: 30px;
+}
+.header ._logo .shit > div:nth-of-type(2):hover ul {
+  display: block;
+}
+.header ._logo .shit > div:nth-of-type(2) img {
+  width: 30px;
+  margin-left: 10px;
+}
+.header ._logo .shit > div:nth-of-type(2) ul {
+  width: 100px;
+  background-color: #ccc;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  display: none;
+}
+.header ._logo .shit > div:nth-of-type(2) ul a {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  line-height: 21px;
+}
+#banner-img-size img {
+  height: 650px;
+  width: 2000px;
+}
+._banner {
+  overflow: hidden;
+}
+._second {
+  padding-top: 30px;
+}
+._second img {
+  width: 130px;
+  display: block;
+  margin: 0 auto;
+}
+._second p:nth-of-type(1) {
+  color: #333;
+  font-size: 20px;
+  text-align: center;
+}
+._second p:nth-of-type(2) {
+  font-size: 14px;
+  color: #999;
+  text-align: center;
+}
+.section-title {
+  position: relative;
+}
+.section-title img {
+  position: absolute;
+  left: -400px;
+}
