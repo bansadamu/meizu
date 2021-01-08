@@ -27,7 +27,7 @@ li {
   z-index: 999;
   margin-left: 15%;
 }
-.header ._logo > img {
+.header ._logo > a > img {
   width: 124px;
   margin-top: 30px;
   float: left;
@@ -128,10 +128,264 @@ li {
   color: #999;
   text-align: center;
 }
+/* 黑图 */
 .section-title {
   position: relative;
+  margin-bottom: 15px;
 }
 .section-title img {
+  float: left;
+  margin-left: -400px;
+}
+/* 两大4小手机列表 */
+.phone .phone-list {
+  overflow: hidden;
+}
+.phone .phone-list li {
+  float: left;
+}
+.phone .phone-list li:hover {
+  box-shadow: 0 0 5px 5px darkolivegreen;
+}
+.phone .phone-list li p {
+  text-align: center;
+}
+.phone .phone-list > li:nth-of-type(1),
+.phone .phone-list > li:nth-of-type(2) {
+  width: 617px;
+  height: 610px;
+  background-color: white;
+  box-sizing: border-box;
+  padding-top: 55px;
+  position: relative;
+}
+.phone .phone-list > li:nth-of-type(1) p:nth-of-type(1),
+.phone .phone-list > li:nth-of-type(2) p:nth-of-type(1) {
+  color: #333;
+  font-size: 28px;
+}
+.phone .phone-list > li:nth-of-type(1) p:nth-of-type(2),
+.phone .phone-list > li:nth-of-type(2) p:nth-of-type(2) {
+  color: #333;
+  font-size: 18px;
+  margin-bottom: 3px;
+}
+.phone .phone-list > li:nth-of-type(1) p:nth-of-type(3),
+.phone .phone-list > li:nth-of-type(2) p:nth-of-type(3) {
+  color: #c00;
+  font-size: 22px;
+}
+.phone .phone-list > li:nth-of-type(1) .lingquan,
+.phone .phone-list > li:nth-of-type(2) .lingquan {
+  display: block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #ff3149;
+  line-height: 60px;
+  color: #fff;
+  font-size: 16px;
+  text-align: center;
   position: absolute;
-  left: -400px;
+  z-index: 1;
+  left: 30px;
+  top: 30px;
+}
+.phone .phone-list > li:nth-of-type(1) img,
+.phone .phone-list > li:nth-of-type(2) img {
+  width: 460px;
+  display: block;
+  margin: 0 auto;
+}
+.phone .phone-list > li:nth-of-type(1) {
+  margin-right: 10px;
+}
+.phone .phone-small {
+  background-color: white;
+  margin-top: 15px;
+  margin-right: 10px;
+  margin-bottom: 8px;
+  width: 303px;
+  height: 375px;
+}
+.phone .phone-small > div p {
+  text-align: center;
+}
+.phone .phone-small img {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.phone .phone-small p:nth-of-type(1) {
+  color: #333;
+  font-size: 16px;
+  margin-bottom: 2px;
+}
+.phone .phone-small p:nth-of-type(2) {
+  color: #999;
+  font-size: 14px;
+}
+.phone .phone-small p:nth-of-type(3) {
+  color: #c00;
+  font-size: 22px;
+}
+/* 标题设置 */
+.main-title {
+  margin-bottom: 10px;
+}
+.main-title h3 {
+  text-align: center;
+  font-size: 30px;
+}
+.section-box2 {
+  height: 450px;
+  background-color: #fff;
+  border-bottom: 1px solid #eee;
+  overflow: hidden;
+  position: relative;
+}
+.section-box2 a {
+  width: 100%;
+  height: 100%;
+}
+.section-box2 a img {
+  width: auto;
+  height: auto;
+  left: 50%;
+  top: 50%;
+  position: absolute;
+  top: 0;
+  left: -430px;
+}
+/* 商品列表 */
+.product-list {
+  width: 1240px;
+}
+.product-list ul {
+  overflow: hidden;
+}
+.product-list ul li {
+  float: left;
+  position: relative;
+  width: 303px;
+  height: 375px;
+  margin-right: 9px;
+  margin-top: 10px;
+  background-color: white;
+  overflow: hidden;
+}
+.product-list ul li:hover {
+  box-shadow: 0 0 3px 3px #ccc;
+}
+.product-list ul li img {
+  width: 100%;
+}
+.product-list ul li div {
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+  left: 0;
+  bottom: 5px;
+}
+.product-list ul li div p {
+  text-align: center;
+}
+.product-list ul li div p:nth-of-type(1) {
+  color: #fff;
+  font-size: 21px;
+  font-weight: 700;
+}
+.product-list ul li div p:nth-of-type(2) {
+  font-size: 14px;
+  color: #fff;
+  /*  text-indent: 1em; */
+}
+.product-list ul li div p:nth-of-type(3) {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ebce6b;
+}
+.product-list ul .other-img img {
+  width: 230px;
+  display: block;
+  margin: 0 auto;
+  margin-top: 30px;
+}
+.product-list ul .other-img p:nth-of-type(1) {
+  color: #333;
+  font-size: 16px;
+}
+.product-list ul .other-img p:nth-of-type(2) {
+  color: #999;
+  font-size: 14px;
+}
+.product-list ul .other-img p:nth-of-type(3) {
+  color: #c00;
+  font-size: 22px;
+}
+/* 社区分享4 */
+.user-share ul .other-img img {
+  width: 100%;
+  margin-top: 0;
+}
+.user-share ul .discuss-user-info {
+  top: 210px;
+}
+.user-share ul .discuss-user-info img {
+  width: 36px;
+  margin: 0 10px;
+  display: inline-block;
+  border-radius: 50%;
+}
+.user-share ul .discuss-user-info span {
+  color: black;
+}
+.user-share ul .discuss-user-info p {
+  padding: 10px 15px 15px;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: left;
+  height: 66px;
+}
+.user-share ul .discuss-user-info i {
+  color: #999;
+  display: block;
+  padding: 0 15px;
+  margin-top: 10px;
+  text-align: left;
+}
+/* no margin - r*/
+#no-mr {
+  margin-right: 0;
+}
+/* Flyme 7个li */
+.nc-video {
+  width: 1240px;
+}
+.nc-video ul img {
+  width: 100%;
+}
+.nc-video ul li {
+  width: 303px;
+  height: 245px;
+  float: left;
+  margin-right: 9px;
+  margin-bottom: 15px;
+}
+.nc-video ul li:hover {
+  box-shadow: 0 0 3px 3px #ccc;
+}
+.nc-video ul li p {
+  font-size: 16px;
+  line-height: 55px;
+  text-align: center;
+  color: black;
+}
+.nc-video ul .nc-two {
+  width: 615px;
+}
+.main {
+  background-color: #F4F4F4;
 }
