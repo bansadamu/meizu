@@ -1,1 +1,39 @@
 @charset 'utf-8';
+.p0 {
+  width: 1240px;
+  padding: 0;
+}
+.fast-nav {
+  background: #f6f8fb;
+}
+.fast-nav .container {
+  height: 70px;
+  color: #333;
+}
+.fast-nav .container ._name {
+  margin-top: 15px;
+  float: left;
+  font-size: 26px;
+}
+.fast-nav .container ._products {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.fast-nav .container ._products li {
+  float: left;
+  border-right: 1px solid #dedede;
+}
+.fast-nav .container ._products li a {
+  display: block;
+  padding: 0 10px;
+  color: #333;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.fast-nav .container ._products li:nth-last-of-type(1) {
+  border: none;
+}

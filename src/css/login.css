@@ -4,8 +4,11 @@
   padding-top: 28px;
   padding-bottom: 40px;
 }
-.head img {
+.head a {
   display: block;
+}
+.head img {
+  /*  display: block; */
   width: 110px;
 }
 .main {
