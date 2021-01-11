@@ -72,7 +72,9 @@
             </ul>
         </div>
     </div>
-   
+  <div class="main">
+    <img class="lazy" data-original="//openfile.meizu.com/group1/M00/08/5F/Cgbj0V_3-lyAVQXrAAE5cnp36c0380.jpg" width="1240px" alt="" src="//openfile.meizu.com/group1/M00/08/5F/Cgbj0V_3-lyAVQXrAAE5cnp36c0380.jpg" title="" style="display: inline;">
+  </div>
 
 
     
@@ -137,5 +139,12 @@
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+    <script src="../js/library/jquery.js"></script>
+    <script src="../js/library/jquery.lazyload.js"></script>
   </body>
 </html>
+<script type="text/javascript" charset="utf-8">
+    $(function() {
+        $("img.lazy").lazyload({effect: "fadeIn"});
+    });
+  </script>
