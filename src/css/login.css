@@ -1,0 +1,89 @@
+@charset 'utf-8';
+.head {
+  height: auto;
+  padding-top: 28px;
+  padding-bottom: 40px;
+}
+.head img {
+  display: block;
+  width: 110px;
+}
+.main {
+  width: 100%;
+  /* height: 750px; */
+  background: linear-gradient(180deg, #edfcfd 0%, #faffff 100%);
+  position: relative;
+}
+.main img {
+  width: 100%;
+  display: block;
+}
+.main .main-form {
+  width: 368px;
+  position: absolute;
+  top: 24%;
+  right: 200px;
+  background-color: #FFF;
+  padding: 35px 35px 10px;
+  padding-top: 10px;
+  border-radius: 2px;
+  box-shadow: 0 6px 12px 0 rgba(138, 153, 150, 0.15);
+}
+.main .main-form img {
+  width: 35px;
+  margin-left: 290px;
+}
+/* 手机验证码登录 */
+.phone-code-login .phonetext {
+  width: 300px;
+  position: relative;
+  padding: 0px 10px;
+  height: 46px;
+  line-height: 22px;
+  font-size: 14px;
+  margin-bottom: 26px;
+  border: 1px solid #dadada;
+  color: #474747;
+  padding-top: 10px;
+}
+.phone-code-login .phonetext span input {
+  width: 50px;
+  border-right: 1px solid #DDD;
+}
+.phone-code-login h3 {
+  text-align: center;
+  margin: 40px 0;
+}
+.phone-code-login input {
+  outline: none;
+  border: none;
+  vertical-align: middle;
+  text-indent: 8px;
+}
+/* 登录键 */
+#_login {
+  background-color: #387aff;
+}
+#_login a {
+  width: 100%;
+  display: block;
+  height: 46px;
+  font-size: 14px;
+  line-height: 46px;
+  text-align: center;
+  margin-bottom: 10px;
+  /*  outline: none; */
+  color: #fff;
+  border-radius: 10px;
+  text-decoration: none;
+}
+#_login a:hover {
+  background-color: #2b8cc5;
+}
+/* 注册 忘记密码 */
+.login-forget a {
+  text-decoration: none;
+}
+.login-forget .login-forget-f {
+  float: right;
+}
