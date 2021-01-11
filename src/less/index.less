@@ -37,9 +37,10 @@ li{
         }
 
     ._logo-l{
-            overflow: hidden;
+            /* overflow: hidden; */
             height: 82px;
             float: left;
+            position: relative;
             &>li{
                 float: left;
 
@@ -51,6 +52,52 @@ li{
                     transition: color .1s linear;
                 }
             }
+            ._phone:hover{
+                .phone-subnav{
+                    display: block;
+                }
+            }
+            .phone-subnav{
+                position: absolute;
+                top: 100px;
+                left: -100px;
+                width: 1240px;
+                z-index: 999;
+                background-color: white;
+                display: none;
+                
+            
+              li{
+                  width: 150px;
+                  float: left;
+                  margin-left: 20px;
+                   img{
+                    width: 100%;
+                }
+                p{
+                    text-align: center;
+                }
+              }
+               
+            }
+
+            ._appdown-D{
+                position: absolute;
+                top: 100px;
+                left: -100px;
+                width: 1240px;
+                z-index: 999;
+                display: none;
+                img{
+                    width: 100%;
+                }
+            }
+            ._appdown:hover{
+                ._appdown-D{
+                    display: block;
+                }
+            }
+
         }   
     .shit{
         float: left;
