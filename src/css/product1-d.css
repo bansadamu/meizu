@@ -1,0 +1,273 @@
+@charset 'utf-8';
+* {
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+em,
+i,
+b {
+  font-weight: normal;
+  font-style: normal;
+}
+li {
+  list-style: none;
+}
+.p0 {
+  padding: 0;
+}
+.header {
+  /* position: absolute; */
+  top: 0;
+  z-index: 999;
+  /* margin-left: 15%; */
+}
+.header ._logo > a {
+  display: block;
+  float: left;
+}
+.header ._logo > a > img {
+  width: 124px;
+  margin-top: 30px;
+  /* float: left; */
+  margin-right: 20px;
+}
+.header ._logo ._logo-l {
+  overflow: hidden;
+  height: 82px;
+  float: left;
+}
+.header ._logo ._logo-l > li {
+  float: left;
+}
+.header ._logo ._logo-l > li > a {
+  display: block;
+  font-size: 14px;
+  padding: 31px 16px 30px;
+  line-height: 21px;
+  transition: color 0.1s linear;
+}
+.header ._logo .shit {
+  float: left;
+  position: relative;
+  margin-left: 15px;
+}
+.header ._logo .shit > a > img {
+  width: 35px;
+  margin-top: 28px;
+  margin-left: 10px;
+}
+.header ._logo .shit > div:nth-of-type(1) {
+  float: left;
+}
+.header ._logo .shit > div:nth-of-type(1) input {
+  width: 150px;
+  height: 35px;
+  outline: none;
+  border-radius: 15px;
+  margin-top: 25px;
+  text-indent: 1em;
+}
+.header ._logo .shit > div:nth-of-type(1) img {
+  width: 25px;
+  display: block;
+  position: absolute;
+  top: 30px;
+  left: 110px;
+}
+.header ._logo .shit > div:nth-of-type(2) {
+  float: left;
+  margin-top: 30px;
+}
+.header ._logo .shit > div:nth-of-type(2):hover ul {
+  display: block;
+}
+.header ._logo .shit > div:nth-of-type(2) img {
+  width: 30px;
+  margin-left: 10px;
+}
+.header ._logo .shit > div:nth-of-type(2) ul {
+  width: 100px;
+  background-color: #ccc;
+  position: absolute;
+  z-index: 1;
+  right: 5px;
+  display: none;
+}
+.header ._logo .shit > div:nth-of-type(2) ul a {
+  display: block;
+  padding: 5px 10px;
+  text-align: center;
+  color: black;
+  font-size: 12px;
+  line-height: 21px;
+}
+._foot {
+  width: 1240px;
+  overflow: hidden;
+}
+._foot .foot-1 {
+  padding-top: 45px ;
+  overflow: hidden;
+}
+._foot .foot-1 ul {
+  width: 1000px;
+  overflow: hidden;
+  float: left;
+}
+._foot .foot-1 ul li {
+  float: left;
+  text-align: center;
+  width: 15%;
+}
+._foot .foot-1 ul li img {
+  width: 50px;
+}
+._foot .foot-1 ul li p {
+  line-height: 30px;
+  color: #999;
+}
+._foot .foot-1 .online-server {
+  float: right;
+  text-align: right;
+  margin-top: -18px;
+}
+._foot .foot-1 .online-server span {
+  color: #999;
+  font-size: 12px;
+  line-height: 30px;
+}
+._foot .foot-1 .online-server p {
+  color: #008cff;
+  font-size: 25px;
+  font-weight: 400;
+  /* margin-top: -6px; */
+  line-height: 35px;
+}
+._foot .foot-1 .online-server a {
+  display: inline-block;
+  height: 30px;
+  padding: 0 16px;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  line-height: 30px;
+  color: #fff;
+  border-radius: 20px;
+  margin-top: 3px;
+  font-size: 14px;
+  background: #008cff;
+}
+._foot .foot-2 {
+  /* float: left; */
+  padding-bottom: 10px;
+}
+._foot .foot-2 .foot-2l ul {
+  overflow: hidden;
+}
+._foot .foot-2 .foot-2l ul li {
+  padding-right: 15px;
+  border-right: 1px solid #d6d6d6;
+  float: left;
+  height: 18px;
+  margin-right: 15px;
+}
+._foot .foot-2 .foot-2l ul li a {
+  display: block;
+  line-height: 18px;
+  color: #999;
+  font-size: 12px;
+}
+._foot .foot-2 .foot-2l ul li a:hover {
+  color: #337ab7;
+}
+._foot .foot-2 .foot-2l .foot-2low a {
+  color: #999;
+  line-height: 27px;
+  font-size: 12px;
+}
+._foot .foot-2 .foot-2l .foot-2low a:hover {
+  color: #337ab7;
+}
+._foot .foot-2 .foot-2r {
+  float: right;
+  margin-top: -30px;
+  position: relative;
+}
+._foot .foot-2 .foot-2r a {
+  line-height: 27px;
+  font-size: 12px;
+  display: inline-block;
+  width: 40px;
+  height: 30px;
+  position: relative;
+}
+._foot .foot-2 .foot-2r a img {
+  width: 20px;
+}
+._foot .foot-2 .foot-2r a > img:nth-of-type(2) {
+  position: absolute;
+  z-index: 1;
+  top: 5px;
+  left: 0px;
+  display: none;
+}
+._foot .foot-2 .foot-2r a:hover img:nth-of-type(2) {
+  display: block;
+}
+._foot .foot-2 .foot-2r a > img:nth-of-type(3) {
+  position: absolute;
+  bottom: 40px;
+  left: -8px;
+  width: 180px;
+  display: none;
+}
+._foot .foot-2 .foot-2r a:hover img:nth-of-type(3) {
+  display: block;
+}
+._foot .foot-2 .foot-2r > a:nth-of-type(2) > img:nth-of-type(3) {
+  left: -50px;
+}
+.p0 {
+  width: 1240px;
+  padding: 0;
+}
+.fast-nav {
+  background: #f6f8fb;
+}
+.fast-nav .container {
+  height: 70px;
+  color: #333;
+}
+.fast-nav .container ._name {
+  margin-top: 15px;
+  float: left;
+  font-size: 26px;
+}
+.fast-nav .container ._products {
+  float: left;
+  margin-top: 25px;
+  margin-left: 10px;
+  overflow: hidden;
+}
+.fast-nav .container ._products li {
+  float: left;
+  border-right: 1px solid #dedede;
+}
+.fast-nav .container ._products li a {
+  display: block;
+  padding: 0 10px;
+  color: #333;
+  line-height: 20px;
+  font-size: 16px;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.fast-nav .container ._products li:nth-last-of-type(1) {
+  border: none;
+}
