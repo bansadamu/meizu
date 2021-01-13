@@ -312,13 +312,15 @@ li {
   position: relative;
   width: 300px;
   height: 375px;
-  margin-right: 9px;
   margin-top: 10px;
+  margin-bottom: 15px;
+  margin-right: 9px;
   background-color: white;
   overflow: hidden;
+  transition: all 0.3s ease;
 }
 .product-list ul li:hover {
-  box-shadow: 0 0 3px 3px #ccc;
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
 }
 .product-list ul li img {
   width: 100%;

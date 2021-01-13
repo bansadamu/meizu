@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap 101 Template</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/shopping-login.css">
+    <link rel="stylesheet" href="../css/shopping.css">
+    <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+    <script src="../js/shop.js" type="module"></script>
+</head>
+<body>
+    <!-- 导航 -->
+    <div class="layout-header">
+        <div class="container">
+            <div class="layout-header-logo">
+                <a href="../html/index.html">
+                    <img src="../img/meizu3.png" alt="">
+                </a>
+            </div>
+            <ul class="layout-header-bread">
+                <li class="layout-header-bread-1">购物车</li>
+                <li>确认订单</li>
+                <li>在线支付</li>
+                <li class="layout-header-bread-4">完成</li>
+            </ul>
+            <ul class="layout-header-right">
+                <li>
+                    <a href="#">
+                        我的订单
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <span>toohyk</span>的商城
+                        <i></i>
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+
+    <!-- 主题 -->
+    <div class="shopping-cart">
+        <div class="container">
+            <div class="mzcontainer">
+                <table class="cart-header">
+                    <tr>
+                        <td class="cart-col-select">
+                            <div class="cart-select-all">
+                                <input type="checkbox" class="mz-checkbox" style="position: absolute;
+                                top: 13px">
+                                <span class="cart-select-title" style="text-indent: 25px;">全选</span>
+                            </div>
+                        </td>
+                        <td class="cart-col-price">单价(元)</td>
+                        <td class="cart-col-number">数量</td>
+                        <td class="cart-col-total">总价(元)</td>
+                        <td class="cart-col-ctrl">编辑</td>
+                    </tr>
+                </table>
+                <ul class="cart-merchant-list">
+                    <li class="cart-merchant">
+                        <div class="cart-merchant-header">
+                            <div class="cart-select-all">
+                                <input type="checkbox" class="mz-checkbox" style="position: absolute;
+                                top: 160px">
+                                <span class="cart-select-title" style="text-indent: 25px;">魅族官方商城</span>
+                            </div>
+                        </div>
+                        <!-- <table class="cart-merchant-body">
+                            <tr class="cart-product ">
+                                <td class="cart-col-select">
+                                    <input type="checkbox" class="mz-checkbox">
+                                    <a href="#"><img src="http://openfile.meizu.com/group1/M00/07/4D/Cgbj0F1l7zeAFyLsAAZJk_cF8Tk126.png@120x120.png" alt=""></a>
+                                    <a href="#" class="cart-product-info">
+                                        <p class="cart-product-item-name">MEIZU UR 高端定制耳机  预约</p>
+                                        <p class="cart-product-desc">十单元 8699起</p>
+                                    </a>
+                                </td>
+                                <td class="cart-col-price">
+                                    <span class="cart-product-price">200.00</span>
+                                </td>
+                                <td class="cart-col-number">
+                                    <div class="mz-adder">
+                                        <button class="mz-adder-subtract"></button>
+                                        <div class="mz-adder-num">
+                                            <input type="number" value="1" max="10" min="1">
+                                        </div>
+                                        <button class="mz-adder-add"></button>
+                                    </div>
+                                </td>
+                                <td class="cart-col-total" style="color: red;text-align: center;">
+                                    <span class="cart-product-price">200.00</span>
+                                </td>
+                                <td class="cart-col-ctrl"><a style="color: #8c8c8c;" href="#" class="del">删除</a></td>
+                            </tr>
+                        </table>
+                        <table class="cart-merchant-body">
+                            <tr class="cart-product ">
+                                <td class="cart-col-select">
+                                    <input type="checkbox" class="mz-checkbox">
+                                    <a href="#"><img src="http://openfile.meizu.com/group1/M00/07/4D/Cgbj0F1l7zeAFyLsAAZJk_cF8Tk126.png@120x120.png" alt=""></a>
+                                    <a href="#" class="cart-product-info">
+                                        <p class="cart-product-item-name">MEIZU UR 高端定制耳机  预约</p>
+                                        <p class="cart-product-desc">十单元 8699起</p>
+                                    </a>
+                                </td>
+                                <td class="cart-col-price">
+                                    <span class="cart-product-price">200.00</span>
+                                </td>
+                                <td class="cart-col-number">
+                                    <div class="mz-adder">
+                                        <button class="mz-adder-subtract"></button>
+                                        <div class="mz-adder-num">
+                                            <input type="number" value="1" max="10" min="1">
+                                        </div>
+                                        <button class="mz-adder-add"></button>
+                                    </div>
+                                </td>
+                                <td class="cart-col-total" style="color: red;text-align: center;">
+                                    <span class="cart-product-price">200.00</span>
+                                </td>
+                                <td class="cart-col-ctrl"><a style="color: #8c8c8c;" href="#" class="del">删除</a></td>
+                            </tr>
+                        </table> -->
+                    </li>
+                </ul>
+            </div>
+            <div class="cart-footer">
+                <div class="mzcontainer">
+                    <div class="cart-footer-left">
+                        <div class="cart-select-all">
+                            <input type="checkbox" class="mz-checkbox">
+                            <span class="cart-select-title">全选</span>
+                        </div>
+                        <span class="cart-remove-selected">删除选中商品</span>
+                        <span class="cart-footer-count">
+                            共<span class="cart-footer-num">1</span>件商品,
+                            已选择<span class="cart-footer-num blue">0</span>件
+                        </span>
+                    </div>
+                    <div class="cart-footer-right">
+                        <span class="cart-footer-sum">
+                            以优惠<span class="cart-footer-num red">0.00</span>元,
+                            合计：(不含运费)<span class="cart-footer-total">0.00</span>
+                        </span>
+                        <div class="mz-btn">
+                            去结算
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- 尾部 -->
+    <footer>
+        <div class="container p0 _foot">
+            <div class="foot-1">
+                <ul>
+                    <li><a href=""><img src="../img/f1.png" alt=""><p>满80免运费</p></a></li>
+                    <li><a href=""><img src="../img/f2.png" alt=""><p>100+ 城市次日送达</p></a></li>
+                    <li><a href=""><img src="../img/f3.png" alt=""><p>7天无理由退货</p></a></li>
+                    <li><a href=""><img src="../img/f4.png" alt=""><p>15天换货保障</p></a></li>
+                    <li><a href=""><img src="../img/f5.png" alt=""><p>1年免费保修</p></a></li>
+                    <li><a href=""><img src="../img/f6.png" alt=""><p>上门快修</p></a></li>
+                </ul>
+                <div class="online-server">
+                    <span>周一至周日 8:00-20:00</span>
+                    <p>400-788-3333</p>
+                    <a href="">在线客服</a>
+                </div>
+            </div>
+            <hr>
+            <div class="foot-2">
+              <div class="foot-2l">
+                  <ul>
+                      <li><a href="">了解魅族</a></li>
+                      <li><a href="">加入我们</a></li>
+                      <li><a href="">联系我们</a></li>
+                      <li><a href="">Flyme</a></li>
+                      <li><a href="">魅族社区</a></li>
+                      <li><a href="">天猫旗舰店</a></li>
+                      <li><a href="">问题反馈</a></li>
+                      <li><a href="">线上销售授权名单公示</a></li>
+                      <li><a href="">出版物经营许可证</a></li>
+                      <li><a href="">简体中文</a></li>
+                  </ul>
+                  <div class="foot-2low">
+                    <a href=""> ©2020 Meizu Telecom Equipment Co., Ltd. All rights reserved. &nbsp; &nbsp; &nbsp; &nbsp;</a>   
+                    <a href="">粤ICP备13003602号</a>
+                    <a href="">合字B2-20170010 </a>
+                    <a href="">营业执照</a>
+                    <a href="">法律声明</a>
+                    <a href="">粤公网安备 44049102496009 号</a>
+                    
+                  </div>
+              </div>
+              <div class="foot-2r">
+                <a href=""><img src="../img/ce1.png" alt="">
+                <img src="../img/ce1hover.png" alt="">
+                 <img src="../img/ce5.png" alt=""> 
+              </a>
+                <a href=""><img src="../img/ce2.png" alt="">
+                <img src="../img/ce2hover.png" alt="">
+                  <img src="../img/ce6.jpg" alt="">
+              </a>
+                <a href=""><img src="../img/ce3.png" alt="">
+                <img src="../img/ce3hover.png" alt=""></a> 
+                <a href=""><img src="../img/ce4.png" alt="">
+                <img src="../img/ce4hover.png" alt=""></a> 
+              </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@1.12.4/dist/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script>
+</body>
+</html>
