@@ -271,3 +271,19 @@ li {
 .fast-nav .container ._products li:nth-last-of-type(1) {
   border: none;
 }
+._shop {
+  overflow: hidden;
+}
+.preview {
+  float: left;
+  width: 580px;
+}
+.preview .shop-slider {
+  width: 580px;
+}
+.preview .shop-slider .carousel-indicators li {
+  border: 1px solid black !important;
+}
+.preview .shop-slider img {
+  width: 100%;
+}
