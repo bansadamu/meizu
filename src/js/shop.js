@@ -16,6 +16,7 @@ if (shop) {
         dataType: "json",
         success: function (res) {
             let temp = '';
+            let nnum = 0;
             res.forEach((elm, i) => {
                 let picture = JSON.parse(elm.picture);
 
@@ -38,7 +39,7 @@ if (shop) {
                         </a>
                     </td>
                     <td class="cart-col-price">
-                        <span class="cart-product-price">
+                        <span class="cart-product-price-1" data-num="${nnum}">
                             ${parseFloat(elm.price).toFixed(2)}
                         </span>
                     </td>
@@ -46,19 +47,22 @@ if (shop) {
                         <div class="mz-adder">
                             <button class="mz-adder-subtract"></button>
                             <div class="mz-adder-num">
-                                <input type="number" value="${arr[0].num}" max="${elm.num}" min="1">
+                                <input type="number" value="${arr[0].num}" max="${elm.num}" min="1" data-num="${nnum}">
                             </div>
                             <button class="mz-adder-add"></button>
                         </div>
                     </td>
                     <td class="cart-col-total" style="color: red;text-align: center;">
-                        <span class="cart-product-price">
+                        <span class="cart-product-price" data-num1="${nnum}">
                         ${(elm.price*arr[0].num).toFixed(2)}
                         </span>
                     </td>
                     <td class="cart-col-ctrl"><a style="color: #8c8c8c;" href="#" data-id="${elm.id}" class="del">删除</a></td>
                 </tr>
-            </table>`;
+            </table>`
+            
+                nnum++
+            ;
               
 
             // $('.cart-product-price').text((elm.price*arr[0].num).toFixed(2));
