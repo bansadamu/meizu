@@ -9,6 +9,7 @@
     <!-- <link rel="stylesheet" href="../css/login-d.css"> -->
     <link rel="stylesheet" href="../css/login.css">
     <link rel="stylesheet" href="../css/login-foot.css">
+    
     <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
@@ -24,13 +25,17 @@
     <div class="main">
         <img src="../img/dl1.png" alt="">
         <div class="container">
-            <form action="../../interface/login.php" class="main-form" method="GET">
-              <a href="../html/login2.html"><img src="../img/login1.png" alt=""></a>
+            <form action="../../interface/login2.php" class="main-form" method="GET">
+              <a href="../html/login.html"><img src="../img/login2.png" alt=""></a>
             <div class="phone-code-login">
-                <h3>验证码登录</h3>
+                <h3>账号密码登录</h3>
                 <div class="phonetext">
-                    <span> <input type="text" value="+86"></span>
-                   <input type="text" placeholder="手机号码" name="phone"></div>
+                    
+                   <input type="text" placeholder="用户名" name="username"><span> </span>
+                  </div>
+                   <div class="phonetext">
+                    <span> </span>
+                   <input type="password" placeholder="密码" name="password"></div>
                             
             </div>
             <!-- 登录键 -->

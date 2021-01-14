@@ -119,14 +119,14 @@ li {
 }
 .header ._logo .shit > div:nth-of-type(2) {
   float: left;
-  margin-top: 30px;
+  margin-top: 27px;
 }
 .header ._logo .shit > div:nth-of-type(2):hover ul {
   display: block;
 }
 .header ._logo .shit > div:nth-of-type(2) img {
-  width: 30px;
-  margin-left: 10px;
+  width: 35px;
+  margin-left: 5px;
 }
 .header ._logo .shit > div:nth-of-type(2) ul {
   width: 100px;
@@ -143,6 +143,20 @@ li {
   color: black;
   font-size: 12px;
   line-height: 21px;
+}
+.header ._logo .shit .head2-count {
+  position: absolute;
+  top: 30px;
+  right: -3px;
+  height: 15px;
+  border-radius: 50%;
+  background: #c00;
+  color: #fff;
+  line-height: 15px;
+  text-align: center;
+  display: block;
+  padding: 0 4px;
+  text-indent: 0;
 }
 #banner-img-size img {
   height: 650px;

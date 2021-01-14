@@ -25,7 +25,7 @@ if (shop) {
                 // 从购物车的cookie数据中去选择当前遍历的数据
                 let arr = shop.filter(val => val.id == elm.id);
 
-                temp += ` <table class="cart-merchant-body">
+                temp += ` <table class="cart-merchant-body s${elm.id}">
                 <tr class="cart-product ">
                     <td class="cart-col-select">
                         <input type="checkbox" class="mz-checkbox">

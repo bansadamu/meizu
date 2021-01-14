@@ -66,21 +66,18 @@
   text-indent: 8px;
 }
 /* 登录键 */
-#_reg {
+#_reg input {
   background-color: #387aff;
-}
-#_reg a {
   width: 100%;
-  display: block;
   height: 46px;
   font-size: 14px;
-  line-height: 46px;
+  line-height: 44px;
   text-align: center;
   margin-bottom: 10px;
-  /*  outline: none; */
+  outline: none;
   color: #fff;
-  border-radius: 10px;
-  text-decoration: none;
+  border-radius: 8px;
+  border: none;
 }
 /* 注册 忘记密码 */
 .login-forget a {
@@ -101,6 +98,12 @@
   border: 1px solid #dadada;
   color: #666;
   padding-top: 10px;
+  transition: all linear 0.3;
+  border-radius: 5px;
+  text-align: center;
+}
+._button-pass:hover {
+  background-color: #ccc;
 }
 /* 同意单选按钮 */
 .reg-agree {
@@ -118,3 +121,8 @@
   vertical-align: middle;
 }
 /* { "src": "", "alt": "" } */
+#_has {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}

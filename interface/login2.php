@@ -1,10 +1,10 @@
 <?php
     include('../interface/library/conn.php');
 
-    $phone=$_REQUEST['phone'];
-    // $password=$_REQUEST['password'];
+    $username=$_REQUEST['username'];
+    $password=$_REQUEST['password'];
 
-    $sql="select * from users where phone='$phone'";
+    $sql="select * from users where username='$username' and password='$password'";
 
     $result=$mysqli->query($sql);
 
@@ -21,8 +21,8 @@
         echo '<script>location.href="../src/html/shopping.html"</script>';
     
     }else{
-        echo '<script>alert("手机号错误，登录失败");</script>';
-        echo '<script>location.href="../src/html/login.html"</script>';
+        echo '<script>alert("用户名或密码错误，登录失败");</script>';
+        echo '<script>location.href="../src/html/login2.html"</script>';
     }
 
 ?>

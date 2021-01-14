@@ -147,7 +147,6 @@
   position: relative;
   background-color: #fff;
   outline: none;
-  cursor: no-drop;
   border: 0;
 }
 .shopping-cart .container .mzcontainer .cart-merchant-list .cart-merchant .cart-merchant-body .cart-product .cart-col-number .mz-adder .mz-adder-subtract::before {

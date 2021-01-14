@@ -80,19 +80,19 @@
 
 /* 登录键 */
 #_reg{
-    background-color:#387aff;
-    a{
+    
+    input{
+        background-color:#387aff;
         width: 100%;
-        display: block;
         height: 46px;
         font-size: 14px;
-        line-height: 46px;
+        line-height: 44px;
         text-align: center;
         margin-bottom: 10px;       
-       /*  outline: none; */
+        outline: none;
         color: #fff;
-        border-radius: 10px;
-        text-decoration: none;
+        border-radius: 8px;
+        border: none;
     }
 }
 
@@ -120,7 +120,12 @@
     border: 1px solid #dadada;
     color: #666;
     padding-top: 10px;
-
+    transition: all linear .3;
+    border-radius: 5px;
+    text-align: center;
+    &:hover{
+        background-color: #ccc;
+    }
 }
 
 /* 同意单选按钮 */
@@ -141,3 +146,9 @@
     }
 }
 /* { "src": "", "alt": "" } */
+
+#_has{
+    color: red;
+    font-size: 12px;
+    font-weight: 500;
+}
