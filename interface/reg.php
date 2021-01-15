@@ -37,7 +37,7 @@
     }
 
     // 用户名不存在的情况需要将数据写入数据库
-    $insertSql = "insert into users (username,password,email,address,phone,sex) values ('$username','$password',' ',' ',' ',' ')";
+    $insertSql = "insert into users (username,password,email,address,phone,sex) values ('$username','$password','1','1','1','1')";
     
     // 执行添加操作 会返回一个布尔值
     $res = $mysqli->query($insertSql);  
