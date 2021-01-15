@@ -95,16 +95,23 @@ $(function(){
         $('.check-all').on('click',function(){
 
         $('.mz-checkbox').prop('checked', $(this).prop('checked'));
-                
+           $('.mz-btn').css('background-color','#008CFF')     
         })
         
         other.on('click',function(){   
 
     let isAllCheck = Array.from(other).every(el=> $(el).prop('checked'));
+    $('.mz-btn').css('background-color','#008CFF') 
+    isAllCheck?$('.check-all').prop('checked',true):$('.check-all').prop('checked',false);
+    isAllCheck?$('.mz-btn').css('background-color','#008CFF'):$('.mz-btn').css('background-color','#DBDBDB');  
 
-    isAllCheck?$('.check-all').prop('checked',true):$('.check-all').prop('checked',false)
+    let count = $('.mz-checkbox').not($('.check-all')).length;
+            console.log(count);
+         $('.cart-footer-num').text(count);
+
         })
 
+      
     })();
         
     

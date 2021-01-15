@@ -159,6 +159,7 @@ li {
   text-indent: 0;
 }
 #banner-img-size img {
+  /*  height: 650px; */
   width: 2000px;
 }
 ._banner {
