@@ -25,7 +25,7 @@ li {
   position: absolute;
   top: 0;
   z-index: 999;
-  margin-left: 15%;
+  margin-left: 5px;
 }
 .header ._logo > a {
   display: block;
@@ -157,13 +157,6 @@ li {
   display: block;
   padding: 0 4px;
   text-indent: 0;
-}
-#banner-img-size img {
-  /*  height: 650px; */
-  width: 2000px;
-}
-._banner {
-  overflow: hidden;
 }
 ._second {
   padding-top: 30px;
@@ -298,7 +291,7 @@ li {
   height: 450px;
   background-color: #fff;
   border-bottom: 1px solid #eee;
-  overflow: hidden;
+  /* overflow: hidden; */
   position: relative;
 }
 .section-box2 a {
@@ -312,7 +305,7 @@ li {
   top: 50%;
   position: absolute;
   top: 0;
-  left: -430px;
+  left: -645px;
 }
 /* 商品列表 */
 .product-list {
@@ -442,7 +435,4 @@ li {
 }
 .nc-video ul .nc-two {
   width: 615px;
-}
-.main {
-  background-color: #F4F4F4;
 }
