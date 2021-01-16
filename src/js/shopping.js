@@ -24,69 +24,12 @@ $(function(){
 
           total +=  $(el).text()*1
         })
-
+        
         console.log(total)
         $('.cart-footer-total').text(total)
     });
 
 
-
-
-
-
-    // 单个框  改变总价
-//     (function(){
-//         $('.cart-merchant-body .mz-checkbox').on('click',function(){  
-            
-//         change1()
-              
-//     })    
-//     function change1(){
-//         if($('.cart-merchant-body .mz-checkbox').prop('checked')){
-//             var price= $('.cart-product>.cart-col-price>.cart-product-price').text()*$('.mz-adder-num input').val()
-              
-//               } else{   
-                  
-//                  price = 0 
-//          };
-//          $('.cart-footer-total').text(price);
-        
-//     }
-//     // change3   input框数值改变
-//     function change3(){
-//          $('.mz-adder-num>input').on('change',function(){
-//             console.log( $('.mz-adder-num>input').val()*$('.cart-product>.cart-col-price>.cart-product-price').text());
-//         $('.cart-col-total>.cart-product-price').text($('.mz-adder-num>input').val()*$('.cart-product>.cart-col-price>.cart-product-price').text());
-
-// // 购物车商品总数
-
-//     let count = $('.mz-adder-num>input').val();
-//     $('.cart-footer-num').text(count);
-           
-
-
-//         change1()                     
-//     })
-//     }
-//     change3()
-       
-
-//     // change2()   - + 改变val()
-//     function change2(){
-//         $('.mz-adder-subtract').on('click',function(){
-//             $('.mz-adder-num>input').val(parseInt($('.mz-adder-num>input').val())-1);  
-//             change1() 
-//             change3()                 
-//             })
-    
-//         $('.mz-adder-add').on('click',function(){
-//             $('.mz-adder-num>input').val(parseInt($('.mz-adder-num>input').val())+1);
-//             change1() 
-//             change3()                   
-//             })                    
-//         };
-//         change2();
-//     })();
    
     // 复选框联动
     (function(){

@@ -18,7 +18,7 @@
         setcookie('isLogined','true',time()+3600*24,'/');
         
         echo '<script>alert("登录成功");</script>';
-        echo '<script>location.href="../src/html/shopping.html"</script>';
+        echo '<script>location.href="../src/html/index1.html"</script>';
     
     }else{
         echo '<script>alert("手机号错误，登录失败");</script>';

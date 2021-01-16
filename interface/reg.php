@@ -45,6 +45,6 @@
 
     if($res){
         echo '<script>alert("注册成功");</script>';
-        echo '<script>location.href="../src/html/index1.html"</script>';
+        echo '<script>location.href="../src/html/login2.html"</script>';
     }
 ?>
